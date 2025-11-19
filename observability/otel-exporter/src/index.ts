@@ -12,3 +12,4 @@ export type {
   CustomConfig,
   ExportProtocol,
 } from './types.js';
+export { convertMastraMessagesToGenAIMessages } from './gen-ai-messages.js';
