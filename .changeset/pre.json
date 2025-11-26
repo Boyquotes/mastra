@@ -82,5 +82,30 @@
     "@mastra/voice-speechify": "0.11.12",
     "@mastra/inngest": "0.18.4"
   },
-  "changesets": []
+  "changesets": [
+    "clever-items-retire",
+    "cuddly-cobras-breathe",
+    "fair-papayas-argue",
+    "gentle-stingrays-yell",
+    "grumpy-dogs-sparkle",
+    "huge-moles-watch",
+    "icy-moons-invite",
+    "little-apples-fetch",
+    "little-beans-work",
+    "mighty-kings-sip",
+    "modern-cats-grow",
+    "moody-lies-lose",
+    "neat-signs-mate",
+    "pink-crabs-flow",
+    "plain-hornets-open",
+    "plenty-peaches-rest",
+    "pretty-cameras-kneel",
+    "rare-cows-open",
+    "red-humans-show",
+    "shy-ducks-love",
+    "slimy-views-speak",
+    "wacky-peaches-help",
+    "wide-icons-sin",
+    "yellow-cups-shine"
+  ]
 }

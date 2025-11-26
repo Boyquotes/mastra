@@ -1,5 +1,12 @@
 # @mastra/client-js
 
+## 0.16.15-alpha.0
+
+### Patch Changes
+
+- Updated dependencies [[`33a607a`](https://github.com/mastra-ai/mastra/commit/33a607a1f716c2029d4a1ff1603dd756129a33b3), [`f195082`](https://github.com/mastra-ai/mastra/commit/f1950822a2425d5ccae78c5d010e02ddb027a869), [`a45b0f0`](https://github.com/mastra-ai/mastra/commit/a45b0f0cd19eab1fe4deceae3abf029442c22f74), [`ce57a2b`](https://github.com/mastra-ai/mastra/commit/ce57a2b62fd0d5f6532e4ecd1ba9ba93ac9b95fc), [`3236f35`](https://github.com/mastra-ai/mastra/commit/3236f352ae13cc8552c2965164e97bd125dae48d), [`ce57a2b`](https://github.com/mastra-ai/mastra/commit/ce57a2b62fd0d5f6532e4ecd1ba9ba93ac9b95fc), [`0230321`](https://github.com/mastra-ai/mastra/commit/02303217870bedea0ef009bea9a952f24ed38aaf), [`7b541f4`](https://github.com/mastra-ai/mastra/commit/7b541f49eda6f5a87b738198edbd136927599475), [`0eea842`](https://github.com/mastra-ai/mastra/commit/0eea8423cbdd37f2111593c6f7d2efcde4b7e4ce), [`63ae8a2`](https://github.com/mastra-ai/mastra/commit/63ae8a22c0c09bbb8b9779f5f38934cd75f616af), [`bf810c5`](https://github.com/mastra-ai/mastra/commit/bf810c5c561bd8ef221c0f6bd84e69770b9a38cc), [`522f0b4`](https://github.com/mastra-ai/mastra/commit/522f0b45330719858794eabffffde4f343f55549), [`bf810c5`](https://github.com/mastra-ai/mastra/commit/bf810c5c561bd8ef221c0f6bd84e69770b9a38cc)]:
+  - @mastra/core@0.24.6-alpha.0
+
 ## 0.16.14
 
 ### Patch Changes
