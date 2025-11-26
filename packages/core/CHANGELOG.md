@@ -1,5 +1,29 @@
 # @mastra/core
 
+## 1.0.0-beta.6
+
+### Minor Changes
+
+- Memory system now uses processors. Memory processors (`MessageHistory`, `SemanticRecall`, `WorkingMemory`) are now exported from `@mastra/memory/processors` and automatically added to the agent pipeline based on your memory config. Core processors (`ToolCallFilter`, `TokenLimiter`) remain in `@mastra/core/processors`. ([#9254](https://github.com/mastra-ai/mastra/pull/9254))
+
+### Patch Changes
+
+- Fix generateTitle model type to accept AI SDK LanguageModelV2 ([#10541](https://github.com/mastra-ai/mastra/pull/10541))
+
+  Updated the `generateTitle.model` config option to accept `MastraModelConfig` instead of `MastraLanguageModel`. This allows users to pass raw AI SDK `LanguageModelV2` models (e.g., `anthropic.languageModel('claude-3-5-haiku-20241022')`) directly without type errors.
+
+  Previously, passing a standard `LanguageModelV2` would fail because `MastraLanguageModelV2` has different `doGenerate`/`doStream` return types. Now `MastraModelConfig` is used consistently across:
+  - `memory/types.ts` - `generateTitle.model` config
+  - `agent.ts` - `genTitle`, `generateTitleFromUserMessage`, `resolveTitleGenerationConfig`
+  - `agent-legacy.ts` - `AgentLegacyCapabilities` interface
+
+- Adds bidirectional integration with otel tracing via a new @mastra/otel-bridge package. ([#10482](https://github.com/mastra-ai/mastra/pull/10482))
+
+- Fix network agent not getting `text-delta` from subAgent when `.stream` is used ([#10533](https://github.com/mastra-ai/mastra/pull/10533))
+
+- Updated dependencies [[`db70a48`](https://github.com/mastra-ai/mastra/commit/db70a48aeeeeb8e5f92007e8ede52c364ce15287)]:
+  - @mastra/observability@1.0.0-beta.2
+
 ## 1.0.0-beta.5
 
 ### Patch Changes

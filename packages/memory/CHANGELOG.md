@@ -1,5 +1,16 @@
 # @mastra/memory
 
+## 1.0.0-beta.3
+
+### Minor Changes
+
+- Memory system now uses processors. Memory processors (`MessageHistory`, `SemanticRecall`, `WorkingMemory`) are now exported from `@mastra/memory/processors` and automatically added to the agent pipeline based on your memory config. Core processors (`ToolCallFilter`, `TokenLimiter`) remain in `@mastra/core/processors`. ([#9254](https://github.com/mastra-ai/mastra/pull/9254))
+
+### Patch Changes
+
+- Updated dependencies [[`c237233`](https://github.com/mastra-ai/mastra/commit/c23723399ccedf7f5744b3f40997b79246bfbe64), [`2500740`](https://github.com/mastra-ai/mastra/commit/2500740ea23da067d6e50ec71c625ab3ce275e64), [`db70a48`](https://github.com/mastra-ai/mastra/commit/db70a48aeeeeb8e5f92007e8ede52c364ce15287), [`5d171ad`](https://github.com/mastra-ai/mastra/commit/5d171ad9ef340387276b77c2bb3e83e83332d729)]:
+  - @mastra/core@1.0.0-beta.6
+
 ## 1.0.0-beta.2
 
 ### Patch Changes
